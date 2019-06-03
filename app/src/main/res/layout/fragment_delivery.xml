@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".views.Delivery">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            tools:context=".views.Delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/shimejibuy" app:layout_constraintEnd_toStartOf="@+id/shimejibuy"
+            tools:ignore="ScrollViewSize">
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuy"
+                android:text="Chou Farci"
+                app:layout_gravity="center_horizontal" android:layout_height="69dp"
+                android:layout_width="111dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" android:layout_marginTop="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/imageViewLacia"
+                app:layout_constraintHorizontal_bias="0.321"/>
+
+        <ImageView
+                android:id="@+id/imageViewLacia"
+                android:layout_width="119dp"
+                android:layout_height="104dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/choufarci2"
+                app:layout_gravity="center_horizontal"
+                android:contentDescription="dfsdfsd" app:layout_column="11" app:layout_row="0"
+                android:adjustViewBounds="false"
+                android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="16dp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuyr3"
+                android:text="Apple Risotto"
+                app:layout_gravity="center_horizontal" android:layout_height="59dp"
+                android:layout_width="123dp"
+                app:layout_constraintStart_toStartOf="@+id/shimejibuy"
+                android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/imageViewLacia22"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="56dp"
+                app:layout_constraintTop_toBottomOf="@+id/shimejibuy"/>
+
+        <ImageView
+                android:id="@+id/imageViewLacia22"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/applerisotto"
+                android:contentDescription="dfsdfsd"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLacia" android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuyrf43"
+                android:text="Lemon Curd Italiano Semifreddo"
+                app:layout_gravity="center_horizontal"
+                android:layout_height="73dp" android:layout_width="121dp"
+                android:layout_marginTop="56dp" app:layout_constraintTop_toBottomOf="@+id/shimejibuyr3"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewLaciadsf" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="@+id/shimejibuyr3"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        <ImageView
+                android:id="@+id/imageViewLaciadsf"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lemoncurditalianosemifreddo"
+                android:contentDescription="dfds"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLacia22" android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuyrfg43"
+                android:text="Mini Soufflé Omelette"
+                app:layout_gravity="center_horizontal"
+                android:layout_height="85dp" android:layout_width="121dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewLacihadsf" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="@+id/shimejibuyrf43"
+                android:layout_marginTop="47dp" app:layout_constraintTop_toBottomOf="@+id/shimejibuyrf43"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        <ImageView
+                android:id="@+id/imageViewLacihadsf"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/minisouffleomelette"
+                android:contentDescription="dfds"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLaciadsf" android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuyrfg2343"
+                android:text="Naan Pot Pie Curry"
+                app:layout_gravity="center_horizontal"
+                android:layout_height="83dp" android:layout_width="118dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewLa324cihadsf" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="@+id/shimejibuyrfg43" app:layout_constraintHorizontal_bias="0.058"
+                android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/shimejibuyrfg43"/>
+
+        <ImageView
+                android:id="@+id/imageViewLa324cihadsf"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/naanpotpiecurry"
+                android:contentDescription="dfds"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLacihadsf" android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/shimejibuyrffg2343"
+                android:text="Thermal Sense Curry"
+                app:layout_gravity="center_horizontal"
+                android:layout_height="83dp" android:layout_width="118dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/shimejibuyrfg2343"
+                app:layout_constraintStart_toStartOf="@+id/shimejibuyrfg2343" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewLa32sd4cihadsf"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+                android:id="@+id/imageViewLa32sd4cihadsf"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/thermalsensecurry"
+                android:contentDescription="dfds"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLa324cihadsf" android:layout_marginEnd="28dp"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

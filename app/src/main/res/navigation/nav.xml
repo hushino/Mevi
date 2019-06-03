@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav"
+            app:startDestination="@id/mainF">
+
+    <fragment android:id="@+id/delivery" android:name="com.delivey.mevi.views.Delivery"
+              android:label="Menu ready for Delivery" tools:layout="@layout/fragment_delivery">
+        <action android:id="@+id/action_delivery_to_mainF" app:destination="@id/mainF"/>
+    </fragment>
+    <fragment android:id="@+id/mainF" android:name="com.delivey.mevi.views.MainF" android:label="Mevi App"
+              tools:layout="@layout/fragment_main">
+        <action android:id="@+id/action_mainF_to_delivery" app:destination="@id/delivery"/>
+    </fragment>
+</navigation>
